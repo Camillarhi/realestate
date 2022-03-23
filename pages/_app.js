@@ -4,6 +4,7 @@ import Head from 'next/head';
 import NProgress from 'nprogress';
 import Layout from '../components/layout';
 
+
 function MyApp({ Component, pageProps }) {
   NProgress.configure({showSpinner: false})
 

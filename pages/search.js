@@ -15,8 +15,8 @@ const Search = ({ properties }) => {
 
     return (
         <Box>
-            <Flex cursor="pointer" bg="gray.100"
-                borderBottom="1px" borderColor="gray.200"
+            <Flex cursor="pointer" bg="purple"
+                borderBottom="1px" borderColor="purple"
                 p="2" fontWeight="black" fontSize="lg"
                 justifyContent="center" alignItems="center"
                 onClick={() => setSearchFilters((prevFilters) => !prevFilters)}>

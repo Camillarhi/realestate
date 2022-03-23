@@ -22,7 +22,7 @@ const SearchFilters = () => {
         router.push({ pathname: path, query })
     }
     return (
-        <Flex bg="gray.100" p="4" justifyContent="center" flexWrap="wrap">
+        <Flex bg="purple" p="4" justifyContent="center" flexWrap="wrap">
             {filters.map((filter) => (
                 <Box key={filter.queryName}>
                     <Select
